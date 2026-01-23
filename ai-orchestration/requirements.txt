@@ -1,0 +1,27 @@
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Data Validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# LLM Integration
+langchain==0.1.0
+langchain-openai==0.0.2
+langchain-anthropic==0.1.0
+
+# PDF Processing
+pypdf==3.17.4
+pdfplumber==0.10.3
+reportlab==4.0.7  # For generating sample invoices
+
+# AWS Integration
+boto3==1.29.7
+
+# Utilities
+python-multipart==0.0.6  # For file uploads
+aiofiles==23.2.1         # Async file operations
+python-dotenv==1.0.0     # Environment variables
+httpx==0.25.2            # HTTP client
+tenacity==8.2.3          # Retry logic
